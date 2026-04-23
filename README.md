@@ -3,6 +3,8 @@
 <img src="https://img.shields.io/badge/platform-macOS-lightgrey?style=flat-square" alt="Platform">
 
 minimalist n lightweight overlay shell for macOS. terminal, launchpad, search, and clipbored history.
+
+![kshell preview](kshell.gif)
   
 ### core features
 >terminal – integrated zsh/bash session with full vt100 support.
