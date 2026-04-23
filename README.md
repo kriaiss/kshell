@@ -24,7 +24,7 @@ minimalist n lightweight overlay shell for macOS. terminal, launchpad, search, a
 >esc - hide instantly.
 
 <details>
-<summary><b>build & install instructions</b></summary>
+<summary><b>build n install instructions</b></summary>
   
 ### setup
 >```bash
