@@ -31,17 +31,17 @@
 <summary><b>build & install instructions</b></summary>
   
 <p align="center">
-  <h2 align="center">### setup</h2>
+  <h2 align="center">setup</h2>
   <p align="center">```bash</p>
   <p align="center">pip install -r requirements.txt</p>
   <p align="center">python3 main.py</p>
 
-  <h2 align="center">### build .app</h2>
+  <h2 align="center">build .app</h2>
   <p align="center">pyinstaller --noconsole --onefile --osx-bundle-identifier "com.kshell.app" --icon=icon.icns main.py</p>
 
-  <h2 align="center">### also u can download builded .app from releases on github</h2>
+  <h2 align="center">also u can download builded .app from releases on github</h2>
 
-  <h2 align="center">### since the app is not signed with an apple developer certificate</h2>
+  <h2 align="center">since the app is not signed with an apple developer certificate</h2>
   <p align="center">right-click kshell.app -> open</p>
   <p align="center">go to system settings > privacy n security and click open anyway</p>
   <p align="center">4 hotkeys: allow accessibility and input monitoring in system settings -> privacy n security -> accessibility.</p>
