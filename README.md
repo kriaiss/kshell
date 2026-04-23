@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <h1 align="center"># kshell</h1>
   <p align="center">minimalist n lightweight overlay shell for macOS. terminal, launchpad, search, and clipbored history.</p>
   
   <h2 align="center">core features</h1>
