@@ -23,6 +23,8 @@ minimalist n lightweight overlay shell for macOS. terminal, launchpad, search, a
 >cmd + 1-4 - switch between tabs.
 >esc - hide instantly.
 
+by kriaiss.
+
 <details>
 <summary><b>build n install instructions</b></summary>
   
@@ -39,5 +41,3 @@ also u can download builded .app from releases on github
 >right-click kshell.app -> open
 >go to system settings > privacy n security and click open anyway
 >for hotkeys: allow accessibility and input monitoring in system settings -> privacy n security -> accessibility.
-
-by kriaiss.
