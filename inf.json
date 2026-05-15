@@ -1,0 +1,15 @@
+{
+  "name": "kshell",
+  "author": "kriaiss",
+  "version": "1.0.0",
+  "description": "minimalist n lightweight overlay shell",
+  "dependencies": ["pyqt6", "pyobjc-framework-cocoa", "pyobjc-framework-quartz", "pyte"],
+  "keybinds": {
+    "toggle_shell": {
+      "label": "open kshell",
+      "keycode": 49,
+      "modifiers": 1048576,
+      "callback": "toggle"
+    }
+  }
+}
