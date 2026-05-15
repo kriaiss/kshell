@@ -1,10 +1,24 @@
-# kshell
-<img src="https://img.shields.io/badge/python-3.12+-blue?style=flat-square" alt="Python">
-<img src="https://img.shields.io/badge/platform-macOS-lightgrey?style=flat-square" alt="Platform">
-
-minimalist n lightweight overlay shell for macOS. terminal, launchpad, search, and clipbored history.
+<div align="center">
+    <pre>
+     ____  __.  _________ ___ ______________.____    .____     
+    |    |/ _| /   _____//   |   \_   _____/|    |   |    |    
+    |      <   \_____  \/    ~    \    __)_ |    |   |    |    
+    |    |  \  /        \    Y    /        \|    |___|    |___ 
+    |____|__ \/_______  /\___|_  /_______  /|_______ \_______ \
+            \/        \/       \/        \/         \/       \/
+    </pre>
+</div>
+<p align="center">
+  minimalist n lightweight ktools plugin overlay shell for macOS. terminal, launchpad, search, and clipbored history.
+</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/python-3.12+-blue?style=flat-square" alt="Python">
+    <img src="https://img.shields.io/badge/platform-macOS-lightgrey?style=flat-square" alt="Platform">
+</p>
 
 ![kshell preview](kshell.gif)
+
+# UPDATE v1.0.1! KSHELL NOW IS A KTOOLS PLUGIN!
   
 ### core features
 >terminal – integrated zsh/bash session with full vt100 support.
@@ -29,15 +43,7 @@ by kriaiss.
 <summary><b>build n install instructions</b></summary>
   
 ### setup
->```bash
->pip install -r requirements.txt
->python3 main.py
-
-### build .app
->pyinstaller --noconsole --onefile --osx-bundle-identifier "com.kshell.app" --icon=icon.icns main.py
-also u can download builded .app from releases on github
-
-### since the app is not signed with an apple developer certificate
->right-click kshell.app -> open
->go to system settings > privacy n security and click open anyway
->for hotkeys: allow accessibility and input monitoring in system settings -> privacy n security -> accessibility.
+* install ktools
+* import plugin
+* for hotkeys: allow accessibility and input monitoring in system settings -> privacy n security -> accessibility.
+* u done!
