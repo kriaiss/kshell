@@ -15,9 +15,7 @@
     <img src="https://img.shields.io/badge/python-3.12+-blue?style=flat-square" alt="Python">
     <img src="https://img.shields.io/badge/platform-macOS-lightgrey?style=flat-square" alt="Platform">
 </p>
-
-
-# UPDATE v1.0.1! KSHELL NOW IS A KTOOLS PLUGIN!
+<h1 align="center">UPDATE v1.0.1! KSHELL NOW IS A KTOOLS PLUGIN!</h1>
 
 ![kshell preview](kshell.gif)
   
