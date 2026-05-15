@@ -22,29 +22,27 @@
 ![kshell preview](kshell.gif)
   
 ### core features
->terminal – integrated zsh/bash session with full vt100 support.
->launchpad – instant app searching and launching.
->search – quick web search across google, yandex, youtube, and github (u can change this in the code).
->clipbored – a smart clipboard history manager that doesnt let ur data get "bored".
+* terminal – integrated zsh/bash session with full vt100 support.
+* launchpad – instant app searching and launching.
+* search – quick web search across google, yandex, youtube, and github (u can change this in the code).
+* clipbored – a smart clipboard history manager that doesnt let ur data get "bored".
 
 ### tech stack
->python 3.12+.
->pyqt6 for the swag interface.
->pyobjc for deep macos integration.
->pyte for terminal emulation.
+* ktools.
+* python 3.12+.
+* pyqt6 for the swag interface.
+* pyobjc for deep macos integration.
+* pyte for terminal emulation.
 
 ### usage
->cmd + space – toggle shell visibility.
->cmd + 1-4 - switch between tabs.
->esc - hide instantly.
+* cmd + space – toggle shell visibility.
+* cmd + 1-4 - switch between tabs.
+* esc - hide instantly.
 
-by kriaiss.
-
-<details>
-<summary><b>build n install instructions</b></summary>
-  
 ### setup
 * install ktools
 * import plugin
 * for hotkeys: allow accessibility and input monitoring in system settings -> privacy n security -> accessibility.
 * u done!
+
+by kriaiss.
