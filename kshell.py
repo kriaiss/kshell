@@ -181,8 +181,9 @@ class KShell(OverlayWindow):
                 break
 
     def set_tab_by_id(self, tab_id):
+        target = str(tab_id).lower()
         for i, tab in enumerate(self.tabs):
-            if tab['id'] == tab_id:
+            if tab['id'].lower() == target or tab.get('name', '').lower() == target:
                 self.set_tab(i)
                 break
 
@@ -261,7 +262,11 @@ class KShell(OverlayWindow):
         QTimer.singleShot(10, self.focus_current)
 
     def open_to_tab(self, idx):
-        self.set_tab(idx)
+        if isinstance(idx, str):
+            self.set_tab_by_id(idx)
+        else:
+            self.set_tab(idx)
+
         if hasattr(self, 'anim_group') and self.anim_group.state() == QParallelAnimationGroup.State.Running and not self.is_hiding:
             return
             
@@ -466,6 +471,10 @@ class Plugin:
 
     def toggle_kshell(self):
         self.ktools.toggle_plugin("kshell")
+
+    def open_to_tab(self, idx):
+        if hasattr(self, 'shell') and self.shell:
+            self.shell.open_to_tab(idx)
 
     def _global_hotkey_handler(self, event):
         cmd_pressed = bool(event.modifierFlags() & (1 << 20))
