@@ -3,11 +3,7 @@
   "author": "kriaiss",
   "version": "1.0.2",
   "description": "minimalist n lightweight overlay shell",
-  "dependencies": [
-    "pyobjc-framework-cocoa",
-    "pyobjc-framework-quartz",
-    "pyqt6"
-  ],
+  "dependencies": [],
   "keybinds": {
     "toggle_shell": {
       "label": "open kshell",
